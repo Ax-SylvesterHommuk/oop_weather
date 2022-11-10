@@ -2,10 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Current Weather OOP</title>
 </head>
-<body>
+<body id="main-frame">
+    <div id="weather">
+        <div id="earth"></div>
+        <div id="description"></div>
+        <div id="wind"><h3>Wind:</h3>
+            <div id="windSpeed" ></div>
+            <div id="windDeg"></div>
+        </div>
+        <div id="Humidity"></div>
+        <div id="pressure"></div>
+        <div id="visibility"></div>
+        <h1 id="temp"></h1>
+        <div id="location"></div>
+
+    </div>
+    <hr>
+    <div>
+        <form id="change-city">
+            <label for="city-name">City</label>
+            <input type="text" id="city-name">
+            <br>
+            <input type="submit" value="Save changes">
+        </form>
+
+    </div>
     <script src="classes/Weather.js"></script>
+    <script src="classes/UI.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
