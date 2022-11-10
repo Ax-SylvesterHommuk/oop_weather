@@ -1,2 +1,2 @@
 # View
-![This is an image](https://imgur.com/a/f7zNZBB.png)
+![This is an image](https://i.imgur.com/trWtQgu.png)
