@@ -1,3 +1,11 @@
+// const  ls = new LS()
+//
+// ls.setCity("Tallinn")
+// const initCity = ls.getCity()
+//
+// const weather = new Weather(initCity)
+// If this does not display the values, use this.
+
 const weather = new Weather(`Tallinn`)
 
 const ui = new UI()
